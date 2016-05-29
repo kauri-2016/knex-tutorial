@@ -4,6 +4,12 @@
   "description": "## Steps",
   "main": "index.js",
   "scripts": {
+    "init": "knex init",
+    "migrate:make": "knex migrate:make",
+    "migrate:latest": "knex migrate:latest",
+    "migrate:rollback": "knex migrate:rollback",
+    "seed:make": "knex seed:make",
+    "seed:run": "knex seed:run",
     "test": "tape tests.js"
   },
   "author": "",
