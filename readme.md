@@ -72,4 +72,12 @@
 
 * Apply the migration file by running `npm run migrate:latest`.
 
+* Open `dev.sqlite` in the SQLite Manager tool and verify schema.
 
+* Create a new seed by running `npm run seed:make test-users`.
+
+* Change table to `Users` and add some objects with `firstName`, `lastName` and `username` properties.
+
+* Apply the seed data by running `npm run seed:run`.
+
+* Refresh the `Users` table and verify the data was inserted.
