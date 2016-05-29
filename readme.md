@@ -81,3 +81,7 @@
 * Apply the seed data by running `npm run seed:run`.
 
 * Refresh the `Users` table and verify the data was inserted.
+
+* Smile ;)
+
+* Write some scripts that perform CRUD operations on the database. You will need to read the docs to do this because we haven't talked about how to do this.
