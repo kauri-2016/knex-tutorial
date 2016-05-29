@@ -1,8 +1,8 @@
-# Knex.js tutorial
+# Small Knex.js tutorial
 
-## Steps
+## Initial steps
 
-* Setup
+* Create the app and set stuff up.
 
   ```sh
   git init
@@ -82,6 +82,13 @@
 
 * Refresh the `Users` table and verify the data was inserted.
 
-* Smile ;)
+* Smile :smiley: nice work!
 
-* Write some scripts that perform CRUD operations on the database. You will need to read the docs to do this because we haven't talked about how to do this.
+
+## Next steps
+
+* Drop the `Users` table by running `npm run migrate:rollback`.
+
+* Reapply the migration to add the table back and add the test data back.
+
+* Write some scripts that perform CRUD operations on the database. You will need to read the docs to do this because we haven't talked about how to do this yet.
